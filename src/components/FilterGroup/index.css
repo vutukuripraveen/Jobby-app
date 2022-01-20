@@ -1,0 +1,12 @@
+.filter-group-container {
+  padding-left: 30px;
+}
+.filter-heading {
+  font-size: 18px;
+}
+.list-container {
+  padding-left: 0;
+}
+.list-item {
+  list-style-type: none;
+}

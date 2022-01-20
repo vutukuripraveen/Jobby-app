@@ -1,0 +1,128 @@
+.jobs-page-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.jobs-page {
+  display: flex;
+}
+.profile-filter-options-section {
+  padding-left: 30px;
+  color: #ffffff;
+  width: 30vw;
+}
+.line {
+  border: 1px solid #ffffff;
+  margin: 0;
+}
+.jobs-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #272727;
+  border-radius: 8px;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.search-input {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search-icon {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}
+.search-button {
+  background-color: #272727;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.jobs-content-container {
+  width: 60vw;
+  padding: 10px;
+}
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+}
+.job-item-link {
+  text-decoration: none;
+}
+.job-item-container {
+  list-style-type: none;
+  margin-bottom: 20px;
+  background-color: #272727;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+}
+.logo-title-star-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  height: 80px;
+  margin: 10px;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.fill-star {
+  color: #fbbf24;
+}
+.location-job-type-salary-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-job-type-container {
+  display: flex;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.description {
+  font-size: 18px;
+  font-weight: 500;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  color: #ffffff;
+}
+.no-jobs-image {
+  height: 250px;
+}
